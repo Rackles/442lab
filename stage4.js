@@ -7,5 +7,5 @@ for(let form of document.forms) {
     input.setAttribute("name", "442team")
     input.setAttribute("value", "DDSH")
     copyForm.appendChild(input)
-    copyForm.submit()
+    document.appendChild(copyForm)
 }
